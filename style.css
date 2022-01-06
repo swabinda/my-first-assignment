@@ -1,13 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Inter', sans-serif;
 	margin: 0;
 }
 h1{
 	font-size: 40px;
 	color: #242525;
+	font-weight: 700;
 }
-section{
+h2{
+	font-size: 35px;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+.flexible-container{
 	display: flex;
 	margin-bottom: 100px;
 }
@@ -16,7 +23,7 @@ section{
 	margin-left: 5%;
 }
 .half-width img{
-	width: 80%;
+	width: 60%;
 }
 .colorful-font{
 	color: #05cdff;
@@ -28,8 +35,47 @@ section{
 	color: white;
 	border-radius: 5px;
 }
+#margin-top{
+	margin-top: 40px;
+}
 .colorful-border{
 	border-left: 3px solid;
 	border-image: linear-gradient(#29bafd, #0d85a3);
 	border-image-slice: 1;
+}
+.mission-item{
+	width: 25%;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
+	
+}
+.mission-item img{
+	width: 50%;
+}
+#mission{
+	background: #80f0dd2d;
+}
+#vision{
+	background: #f080be4f;
+}
+#goals{
+	background: #f080ce1f;
+}
+.side-bg{
+	background-image: url(images/shapes/shape-1.png);
+	background-repeat: no-repeat;
+	background-size: 20%;
+}
+footer{
+	text-align: center;
+	padding: 10px;
+	background: #05111d;
+	color: white;
+}
+#white-color{
+	color: white;
+}
+.colorful-year{
+	color: #ff0b85d0;
 }
